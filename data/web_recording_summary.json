@@ -1,0 +1,1579 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 11,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Aug-30-2023",
+    "RecordingDuration": 1075484,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1693378953,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1259843,
+    "TotalBytesSent": 51799,
+    "TotalRequests": 92,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "sectigo.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.18.14.101",
+          "IncludeInScript": false,
+          "Name": "ocsp.sectigo.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 266,
+              "EventId": 987,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 297,
+              "EventId": 918,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 250,
+              "EventId": 230,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 515,
+              "EventId": 181,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "parasoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.22.66.239",
+          "IncludeInScript": true,
+          "Name": "parabank.parasoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 562,
+              "EventId": 1371,
+              "HttpStatus": 200,
+              "Size": 4426,
+              "URL": "https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 1369,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://parabank.parasoft.com/parabank/logout.htm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1140,
+              "EventId": 1366,
+              "HttpStatus": 200,
+              "Size": 70,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/transfer?fromAccountId=13677&toAccountId=13788&amount=123456"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 703,
+              "EventId": 1351,
+              "HttpStatus": 200,
+              "Size": 140,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12656/accounts"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 313,
+              "EventId": 1348,
+              "HttpStatus": 200,
+              "Size": 7633,
+              "URL": "https://parabank.parasoft.com/parabank/transfer.htm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 578,
+              "EventId": 1343,
+              "HttpStatus": 200,
+              "Size": 140,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12656/accounts"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 1341,
+              "HttpStatus": 200,
+              "Size": 166,
+              "URL": "https://parabank.parasoft.com/parabank/images/gradback.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 1339,
+              "HttpStatus": 200,
+              "Size": 134,
+              "URL": "https://parabank.parasoft.com/parabank/images/gradhead.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1375,
+              "EventId": 1330,
+              "HttpStatus": 200,
+              "Size": 6221,
+              "URL": "https://parabank.parasoft.com/parabank/overview.htm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 656,
+              "EventId": 1318,
+              "HttpStatus": 200,
+              "Size": 60,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/createAccount?customerId=12656&newAccountType=1&fromAccountId=13677"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 703,
+              "EventId": 1294,
+              "HttpStatus": 200,
+              "Size": 75,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12656/accounts"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 313,
+              "EventId": 1291,
+              "HttpStatus": 200,
+              "Size": 6535,
+              "URL": "https://parabank.parasoft.com/parabank/openaccount.htm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 1289,
+              "HttpStatus": 200,
+              "Size": 68,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet2-hover.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 1280,
+              "HttpStatus": 200,
+              "Size": 59316,
+              "URL": "https://parabank.parasoft.com/parabank/images/header-customer.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1109,
+              "EventId": 1277,
+              "HttpStatus": 200,
+              "Size": 3480,
+              "URL": "https://parabank.parasoft.com/parabank/register.htm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 1258,
+              "HttpStatus": 200,
+              "Size": 58862,
+              "URL": "https://parabank.parasoft.com/parabank/images/header-main.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 1254,
+              "HttpStatus": 200,
+              "Size": 1483,
+              "URL": "https://parabank.parasoft.com/parabank/images/logo.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 1246,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://parabank.parasoft.com/parabank/images/clear.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 1208,
+              "HttpStatus": 200,
+              "Size": 177366,
+              "URL": "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 1206,
+              "HttpStatus": 200,
+              "Size": 1683,
+              "URL": "https://parabank.parasoft.com/parabank/style.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 1203,
+              "HttpStatus": 200,
+              "Size": 10120,
+              "URL": "https://parabank.parasoft.com/parabank/template.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1047,
+              "EventId": 1199,
+              "HttpStatus": 200,
+              "Size": 6789,
+              "URL": "https://parabank.parasoft.com/parabank/register.htm;jsessionid=674A7722E34A158EC308FF009F8B3FA3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1266,
+              "EventId": 1177,
+              "HttpStatus": 200,
+              "Size": 89,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1062,
+              "EventId": 1174,
+              "HttpStatus": 200,
+              "Size": 1222,
+              "URL": "https://parabank.parasoft.com/parabank/images/contact-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1063,
+              "EventId": 1171,
+              "HttpStatus": 200,
+              "Size": 1261,
+              "URL": "https://parabank.parasoft.com/parabank/images/aboutus-normal.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/x-icon",
+              "DownloadTime": 47,
+              "EventId": 1168,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://parabank.parasoft.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 46,
+              "EventId": 1160,
+              "HttpStatus": 200,
+              "Size": 65,
+              "URL": "https://parabank.parasoft.com/parabank/images/footerbg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 46,
+              "EventId": 1158,
+              "HttpStatus": 200,
+              "Size": 8715,
+              "URL": "https://parabank.parasoft.com/parabank/images/icon4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 1156,
+              "HttpStatus": 200,
+              "Size": 740,
+              "URL": "https://parabank.parasoft.com/parabank/images/icon2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 1154,
+              "HttpStatus": 200,
+              "Size": 44,
+              "URL": "https://parabank.parasoft.com/parabank/images/sky-color-bg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 1152,
+              "HttpStatus": 200,
+              "Size": 68,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet2-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 1145,
+              "HttpStatus": 200,
+              "Size": 6481,
+              "URL": "https://parabank.parasoft.com/parabank/images/atmhand.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1131,
+              "HttpStatus": 200,
+              "Size": 949,
+              "URL": "https://parabank.parasoft.com/parabank/images/button-bgr.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 313,
+              "EventId": 1126,
+              "HttpStatus": 200,
+              "Size": 58862,
+              "URL": "https://parabank.parasoft.com/parabank/images/header-main.jpg;jsessionid=674A7722E34A158EC308FF009F8B3FA3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1123,
+              "HttpStatus": 200,
+              "Size": 1081,
+              "URL": "https://parabank.parasoft.com/parabank/images/bodybg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 1119,
+              "HttpStatus": 200,
+              "Size": 91,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet-hover.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1116,
+              "HttpStatus": 200,
+              "Size": 1189,
+              "URL": "https://parabank.parasoft.com/parabank/images/home-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 1112,
+              "HttpStatus": 200,
+              "Size": 809,
+              "URL": "https://parabank.parasoft.com/parabank/images/topbg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 313,
+              "EventId": 1110,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://parabank.parasoft.com/parabank/images/clear.gif;jsessionid=674A7722E34A158EC308FF009F8B3FA3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 296,
+              "EventId": 1107,
+              "HttpStatus": 200,
+              "Size": 1483,
+              "URL": "https://parabank.parasoft.com/parabank/images/logo.gif;jsessionid=674A7722E34A158EC308FF009F8B3FA3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1098,
+              "HttpStatus": 200,
+              "Size": 590,
+              "URL": "https://parabank.parasoft.com/parabank/images/main-bg.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1063,
+              "EventId": 1052,
+              "HttpStatus": 200,
+              "Size": 1683,
+              "URL": "https://parabank.parasoft.com/parabank/style.css;jsessionid=674A7722E34A158EC308FF009F8B3FA3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 1047,
+              "EventId": 1045,
+              "HttpStatus": 200,
+              "Size": 177366,
+              "URL": "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js;jsessionid=674A7722E34A158EC308FF009F8B3FA3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 297,
+              "EventId": 989,
+              "HttpStatus": 200,
+              "Size": 10120,
+              "URL": "https://parabank.parasoft.com/parabank/template.css;jsessionid=674A7722E34A158EC308FF009F8B3FA3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1078,
+              "EventId": 938,
+              "HttpStatus": 200,
+              "Size": 5922,
+              "URL": "https://parabank.parasoft.com/parabank/index.htm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 744,
+              "HttpStatus": 200,
+              "Size": 4426,
+              "URL": "https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 391,
+              "EventId": 742,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://parabank.parasoft.com/parabank/logout.htm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 719,
+              "EventId": 739,
+              "HttpStatus": 200,
+              "Size": 71,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/transfer?fromAccountId=14787&toAccountId=14898&amount=1234567"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 812,
+              "EventId": 721,
+              "HttpStatus": 200,
+              "Size": 140,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12989/accounts"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 718,
+              "HttpStatus": 200,
+              "Size": 7634,
+              "URL": "https://parabank.parasoft.com/parabank/transfer.htm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1094,
+              "EventId": 716,
+              "HttpStatus": 200,
+              "Size": 166,
+              "URL": "https://parabank.parasoft.com/parabank/images/gradback.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1016,
+              "EventId": 714,
+              "HttpStatus": 200,
+              "Size": 162,
+              "URL": "https://parabank.parasoft.com/parabank/images/gradhover.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1079,
+              "EventId": 712,
+              "HttpStatus": 200,
+              "Size": 134,
+              "URL": "https://parabank.parasoft.com/parabank/images/gradhead.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 609,
+              "EventId": 709,
+              "HttpStatus": 200,
+              "Size": 140,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12989/accounts"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1438,
+              "EventId": 694,
+              "HttpStatus": 200,
+              "Size": 6222,
+              "URL": "https://parabank.parasoft.com/parabank/overview.htm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 672,
+              "EventId": 689,
+              "HttpStatus": 200,
+              "Size": 60,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/createAccount?customerId=12989&newAccountType=1&fromAccountId=14787"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 719,
+              "EventId": 674,
+              "HttpStatus": 200,
+              "Size": 75,
+              "URL": "https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12989/accounts"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 312,
+              "EventId": 671,
+              "HttpStatus": 200,
+              "Size": 6536,
+              "URL": "https://parabank.parasoft.com/parabank/openaccount.htm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 660,
+              "HttpStatus": 200,
+              "Size": 68,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet2-hover.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 644,
+              "HttpStatus": 200,
+              "Size": 59316,
+              "URL": "https://parabank.parasoft.com/parabank/images/header-customer.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 641,
+              "HttpStatus": 200,
+              "Size": 3483,
+              "URL": "https://parabank.parasoft.com/parabank/register.htm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1109,
+              "EventId": 635,
+              "HttpStatus": 200,
+              "Size": 6952,
+              "URL": "https://parabank.parasoft.com/parabank/register.htm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1078,
+              "EventId": 587,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://parabank.parasoft.com/parabank/images/clear.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 571,
+              "HttpStatus": 200,
+              "Size": 58862,
+              "URL": "https://parabank.parasoft.com/parabank/images/header-main.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 569,
+              "HttpStatus": 200,
+              "Size": 1483,
+              "URL": "https://parabank.parasoft.com/parabank/images/logo.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1172,
+              "EventId": 566,
+              "HttpStatus": 200,
+              "Size": 1683,
+              "URL": "https://parabank.parasoft.com/parabank/style.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1172,
+              "EventId": 563,
+              "HttpStatus": 200,
+              "Size": 10120,
+              "URL": "https://parabank.parasoft.com/parabank/template.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 526,
+              "HttpStatus": 200,
+              "Size": 177366,
+              "URL": "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 2312,
+              "EventId": 523,
+              "HttpStatus": 200,
+              "Size": 6789,
+              "URL": "https://parabank.parasoft.com/parabank/register.htm;jsessionid=4A318A6A82FEA4C50D362738D59A0B2B"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1063,
+              "EventId": 452,
+              "HttpStatus": 200,
+              "Size": 58862,
+              "URL": "https://parabank.parasoft.com/parabank/images/header-main.jpg;jsessionid=4A318A6A82FEA4C50D362738D59A0B2B"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1000,
+              "EventId": 440,
+              "HttpStatus": 200,
+              "Size": 6481,
+              "URL": "https://parabank.parasoft.com/parabank/images/atmhand.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/x-icon",
+              "DownloadTime": 46,
+              "EventId": 430,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://parabank.parasoft.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 46,
+              "EventId": 421,
+              "HttpStatus": 200,
+              "Size": 65,
+              "URL": "https://parabank.parasoft.com/parabank/images/footerbg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 414,
+              "HttpStatus": 200,
+              "Size": 1189,
+              "URL": "https://parabank.parasoft.com/parabank/images/home-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 410,
+              "HttpStatus": 200,
+              "Size": 8715,
+              "URL": "https://parabank.parasoft.com/parabank/images/icon4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 408,
+              "HttpStatus": 200,
+              "Size": 740,
+              "URL": "https://parabank.parasoft.com/parabank/images/icon2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 46,
+              "EventId": 406,
+              "HttpStatus": 200,
+              "Size": 44,
+              "URL": "https://parabank.parasoft.com/parabank/images/sky-color-bg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 402,
+              "HttpStatus": 200,
+              "Size": 68,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet2-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 399,
+              "HttpStatus": 200,
+              "Size": 949,
+              "URL": "https://parabank.parasoft.com/parabank/images/button-bgr.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 397,
+              "HttpStatus": 200,
+              "Size": 1081,
+              "URL": "https://parabank.parasoft.com/parabank/images/bodybg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 313,
+              "EventId": 389,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://parabank.parasoft.com/parabank/images/clear.gif;jsessionid=4A318A6A82FEA4C50D362738D59A0B2B"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 313,
+              "EventId": 385,
+              "HttpStatus": 200,
+              "Size": 1483,
+              "URL": "https://parabank.parasoft.com/parabank/images/logo.gif;jsessionid=4A318A6A82FEA4C50D362738D59A0B2B"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 383,
+              "HttpStatus": 200,
+              "Size": 1222,
+              "URL": "https://parabank.parasoft.com/parabank/images/contact-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 381,
+              "HttpStatus": 200,
+              "Size": 1261,
+              "URL": "https://parabank.parasoft.com/parabank/images/aboutus-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 376,
+              "HttpStatus": 200,
+              "Size": 89,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet-normal.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 374,
+              "HttpStatus": 200,
+              "Size": 91,
+              "URL": "https://parabank.parasoft.com/parabank/images/bullet-hover.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 370,
+              "HttpStatus": 200,
+              "Size": 809,
+              "URL": "https://parabank.parasoft.com/parabank/images/topbg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 32,
+              "EventId": 367,
+              "HttpStatus": 200,
+              "Size": 590,
+              "URL": "https://parabank.parasoft.com/parabank/images/main-bg.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 1078,
+              "EventId": 297,
+              "HttpStatus": 200,
+              "Size": 177366,
+              "URL": "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js;jsessionid=4A318A6A82FEA4C50D362738D59A0B2B"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1031,
+              "EventId": 294,
+              "HttpStatus": 200,
+              "Size": 1683,
+              "URL": "https://parabank.parasoft.com/parabank/style.css;jsessionid=4A318A6A82FEA4C50D362738D59A0B2B"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 281,
+              "EventId": 236,
+              "HttpStatus": 200,
+              "Size": 10120,
+              "URL": "https://parabank.parasoft.com/parabank/template.css;jsessionid=4A318A6A82FEA4C50D362738D59A0B2B"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1047,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 5922,
+              "URL": "https://parabank.parasoft.com/parabank/index.htm"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": false,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 313,
+              "EventId": 1038,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/a3a3d83d-5807-4c3d-b24a-486e3eaa2337"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 282,
+              "EventId": 1035,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/06e5f636-687c-443c-a2bf-944776053135"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 632,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/ee6a8f70-71a5-4386-96f2-048234820deb"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 328,
+              "EventId": 625,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/e523385f-6bca-4419-b5fd-59b63d11dd4c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 375,
+              "EventId": 618,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/680dc514-3a72-46a2-86e9-56fb592bd534"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 611,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/6cc80626-e5ca-42cf-a359-a410cf1b6f6a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 313,
+              "EventId": 519,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/927260c2-b4af-4ebd-a281-cd6812d03cf3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 344,
+              "EventId": 512,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/d5d91574-5175-4234-96f8-2a8d571a9498"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 422,
+              "EventId": 505,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/b1894835-1905-4301-a508-5bcfe48e05c4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 328,
+              "EventId": 480,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/0676d213-d752-483a-ac9c-8d9c16316640"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 343,
+              "EventId": 447,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/d53b39e0-3e44-4bd2-a2f6-42e3c85d60ce"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 312,
+              "EventId": 433,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/6dab9ec7-6482-4709-ba41-f50f922e3a8b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 344,
+              "EventId": 423,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/metrics/1/750ade89-1485-4eee-a377-42fbb89c336a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 378,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/f4a77e18-5949-448f-90bb-2c629bcd1641"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 328,
+              "EventId": 343,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/9b63322a-9a69-482e-a014-e3d861d3824b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 344,
+              "EventId": 317,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/ae84e97d-d257-4239-8b2b-066970f46324"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 313,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/97addb0d-3f8b-4e8a-ae38-f6a8df68dd1d"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 328,
+              "EventId": 287,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/3110cebf-466a-462c-b1b6-f789cc2f07da"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 343,
+              "EventId": 276,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/211e7c4b-af03-4d4c-a215-c09579d6075b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 312,
+              "EventId": 261,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/a491562b-b9b0-4dae-85d7-162b419e27da"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.244.181.201",
+          "IncludeInScript": false,
+          "Name": "aus5.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 31,
+              "EventId": 985,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/116.0.3/20230815173142/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2364%20(x64)/ISET:SSE4_2,MEM:7847/default/default/update.xml?force=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 32,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 1015,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/116.0.3/20230815173142/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2364%20(x64)/ISET:SSE4_2,MEM:7847/default/default/update.xml?force=1"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.65.55",
+          "IncludeInScript": false,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 343,
+              "EventId": 1041,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 929,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 266,
+              "EventId": 274,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 250,
+              "EventId": 259,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.149.100.209",
+          "IncludeInScript": false,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 62,
+              "EventId": 915,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 152,
+              "HttpStatus": 200,
+              "Size": 939,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.237.239",
+          "IncludeInScript": false,
+          "Name": "contile.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 313,
+              "EventId": 925,
+              "HttpStatus": 200,
+              "Size": 1974,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 265,
+              "EventId": 159,
+              "HttpStatus": 200,
+              "Size": 1974,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "lencr.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "182.18.179.89",
+          "IncludeInScript": false,
+          "Name": "r3.o.lencr.org",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 1017,
+              "HttpStatus": 200,
+              "Size": 503,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 47,
+              "EventId": 979,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 973,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 958,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 272,
+              "HttpStatus": 200,
+              "Size": 503,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 16,
+              "EventId": 210,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 202,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 195,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": false,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 46,
+              "EventId": 1197,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 1179,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 960,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 125,
+              "EventId": 833,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 605,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 589,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 228,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 120,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "152.195.38.76",
+          "IncludeInScript": false,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 282,
+              "EventId": 1019,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 110,
+              "EventId": 1001,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 109,
+              "EventId": 249,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 187,
+              "EventId": 240,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 172,
+              "EventId": 157,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 2
+}

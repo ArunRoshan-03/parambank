@@ -1,0 +1,15 @@
+HTTP/2.0 200
+Status: 200
+date: Wed, 30 Aug 2023 12:27:57 GMT
+content-type: text/html;charset=ISO-8859-1
+set-cookie: JSESSIONID=19F608E5D90CB16CF167ABAE334F322A; Path=/parabank; Secure; HttpOnly
+content-language: en-US
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+cf-cache-status: DYNAMIC
+strict-transport-security: max-age=0; includeSubDomains; preload
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 7fed07dc8c4b408d-BOM
+content-encoding: gzip
+

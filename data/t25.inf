@@ -1,0 +1,11 @@
+[t25]
+FileName1=t25.json
+URL1=https://parabank.parasoft.com/parabank/services_proxy/bank/transfer?fromAccountId=13677&toAccountId=13788&amount=123456
+Total=1
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_25.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

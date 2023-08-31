@@ -1,0 +1,15 @@
+[t21]
+FileName1=t21.htm
+URL1=https://parabank.parasoft.com/parabank/overview.htm
+Total=3
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_gradhead.png
+URL2=https://parabank.parasoft.com/parabank/images/gradhead.png
+FileName3=t21_gradback.png
+URL3=https://parabank.parasoft.com/parabank/images/gradback.png
+[ProtocolInfo]
+ProtocolId=QTWeb

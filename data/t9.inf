@@ -1,0 +1,17 @@
+[t9]
+FileName1=t9_accounts.json
+URL1=https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12989/accounts
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_9.xml
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+FileName2=t9_gradhead.png
+URL2=https://parabank.parasoft.com/parabank/images/gradhead.png
+FileName3=t9_gradhover.png
+URL3=https://parabank.parasoft.com/parabank/images/gradhover.png
+FileName4=t9_gradback.png
+URL4=https://parabank.parasoft.com/parabank/images/gradback.png
+[ProtocolInfo]
+ProtocolId=QTWeb

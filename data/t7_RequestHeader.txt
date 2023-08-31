@@ -1,0 +1,17 @@
+POST /parabank/services_proxy/bank/createAccount?customerId=12989&newAccountType=1&fromAccountId=14787 HTTP/1.1
+Host: parabank.parasoft.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json;charset=utf-8
+Content-Length: 0
+Origin: https://parabank.parasoft.com
+DNT: 1
+Connection: keep-alive
+Referer: https://parabank.parasoft.com/parabank/openaccount.htm
+Cookie: JSESSIONID=4A318A6A82FEA4C50D362738D59A0B2B
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

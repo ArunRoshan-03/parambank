@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Wed, 30 Aug 2023 07:17:10 GMT
+Content-Type: text/html;charset=ISO-8859-1
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=674A7722E34A158EC308FF009F8B3FA3; Path=/parabank; Secure; HttpOnly
+Content-Language: en-US
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+CF-Cache-Status: DYNAMIC
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 7feb40a05a8c40f9-BOM
+Content-Encoding: gzip
+

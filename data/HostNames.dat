@@ -1,0 +1,4 @@
+[hosts]
+parabank.parasoft.com=
+ocsp.sectigo.com=
+ocsp.digicert.com=

@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.htm
+URL1=https://parabank.parasoft.com/parabank/register.htm
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_header-customer.jpg
+URL2=https://parabank.parasoft.com/parabank/images/header-customer.jpg
+FileName3=t4_bullet2-hover.gif
+URL3=https://parabank.parasoft.com/parabank/images/bullet2-hover.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

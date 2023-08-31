@@ -1,0 +1,229 @@
+
+
+
+
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>ParaBank | Transfer Funds</title>
+		<link href="/parabank/template.css" rel="stylesheet"
+			type="text/css" />
+		<link href="/parabank/style.css" rel="stylesheet"
+			type="text/css" />
+		<script src="/parabank/webjars/angularjs/1.8.2/angular.min.js"></script>
+	</head>
+
+	<body
+		>
+		<div id="mainPanel">
+			
+				
+				
+					
+
+
+
+<div id="topPanel">
+  <a href="/parabank/admin.htm"><img src="/parabank/images/clear.gif" width="56" height="42" border="0" class="admin"/></a>
+  <a href="/parabank/index.htm"><img src="/parabank/images/logo.gif" alt="ParaBank" width="136" height="31" border="0" class="logo" title="ParaBank"/></a>
+  <p class="caption">Experience the difference</p>
+</div>
+<div id="headerPanel" style="background: url(/parabank/images/header-customer.jpg) 0 0 no-repeat;">
+  
+
+
+<ul class="leftmenu">
+  <li class="Solutions">Solutions</li>
+  <li><a href="about.htm">About Us</a></li>
+  <li><a href="services.htm">Services</a></li>
+  <li><a href="http://www.parasoft.com/jsp/products.jsp">Products</a></li>
+  <li><a href="http://www.parasoft.com/jsp/pr/contacts.jsp">Locations</a></li>
+  <li><a href="admin.htm">Admin Page</a></li>
+  
+</ul>
+  
+
+
+<ul class="button">
+  <li class="home"><a href="/parabank/index.htm">home</a></li>
+  <li class="aboutus"><a href="about.htm">about</a></li>
+  <li class="contact"><a href="contact.htm">contact</a></li>
+</ul>
+</div>
+				
+			
+			<div id="bodyPanel">
+				<div id="leftPanel">
+					
+						
+						
+							
+
+
+<p class="smallText"><b>Welcome</b> Arun roshan</p>
+
+<h2>Account Services</h2>
+
+
+
+<ul>
+  <li><a href="/parabank/openaccount.htm">Open New Account</a></li>
+  <li><a href="/parabank/overview.htm">Accounts Overview</a></li>
+  <li><a href="/parabank/transfer.htm">Transfer Funds</a></li>
+  <li><a href="/parabank/billpay.htm">Bill Pay</a></li>
+  <li><a href="/parabank/findtrans.htm">Find Transactions</a></li>
+  <li><a href="/parabank/updateprofile.htm">Update Contact Info</a></li>
+  <li><a href="/parabank/requestloan.htm">Request Loan</a></li>
+  <li><a href="/parabank/logout.htm">Log Out</a></li>
+</ul>
+						
+					
+				</div>
+				<div id="rightPanel">
+					
+
+
+
+<div ng-app="TransferApp" ng-controller="TransferCtrl" ng-cloak>
+
+   <div ng-if="showForm">
+
+       <h1 class="title">Transfer Funds</h1>
+       <p id="amount.errors" ng-if="showEmptyAmountError" class="error">The amount cannot be empty. </p>
+       <p id="amount.errors" ng-if="showInvalidValueError" class="error">Please enter a valid amount.</p>
+       <form ng-submit="submit()">
+
+         <p><b>Amount:</b> $<input id="amount" type="text" name="input" ng-model="accounts.amount" /></p>
+         <div>
+            From account #
+            <select id="fromAccountId" class="input" ng-init="getAccounts()" ng-model="accounts.fromAccountId" ng-options="account.id for account in accounts track by account.id"><select>
+            to account #
+            <select id="toAccountId" class="input" ng-model="accounts.toAccountId" ng-options="account.id for account in accounts track by account.id"><select>
+         </div>
+         <br/>
+         <div><input type="submit" class="button" value="Transfer"></div>
+ 
+       </form>
+   </div>
+
+   <div ng-if="showResult">
+      <h1 class="title">Transfer Complete!</h1>
+
+      <p>
+	  <span id='amount'>{{amount | currency: '$' : 2 | commaLess}}</span> has been transferred from account #<span id='fromAccountId'>{{fromAccountId}}</span> to account #<span id='toAccountId'>{{toAccountId}}</span>.
+	  </p>
+      <p>See Account Activity for more details.</p>
+   </div>
+   
+   <div ng-if="showError">
+     <h1 class="title">Error!</h1>
+     <p class="error">An internal error has occurred and has been logged.</p>
+   </div>
+ 
+</div>
+
+<script>
+    var app = angular.module('TransferApp', []);
+    app.controller('TransferCtrl', function($scope, $http) {
+
+        $scope.showForm = true;
+        $scope.showResult = false;
+        $scope.errorCode = -1;
+
+        $scope.getAccounts = function() {
+        	
+            $http.get("services_proxy/bank/customers/12989/accounts", {timeout:30000})
+                .then(function(response) {
+                    $scope.accounts = response.data;
+                    $scope.accounts.fromAccountId = $scope.accounts[0];
+                    $scope.accounts.toAccountId = $scope.accounts[0];
+                })
+                .catch(function(response) {
+                    showError(response);
+                });
+        }
+
+        $scope.submit = function() {
+        	resetErrors();
+            $scope.amount = $scope.accounts.amount;
+            $scope.fromAccountId = $scope.accounts.fromAccountId.id;
+            $scope.toAccountId =  $scope.accounts.toAccountId.id;
+
+            var url = "services_proxy/bank/transfer?fromAccountId=" + $scope.fromAccountId + "&toAccountId=" + $scope.toAccountId +"&amount=" + $scope.amount;
+
+        	$http.defaults.transformResponse = [];
+            $http.post(url, "", {timeout:30000})
+                .then(function(response) {
+                    $scope.showForm = false;
+                    $scope.showResult = true;
+                    $scope.errorCode = response.status;
+                }).catch(function(response) {
+                    $scope.errorCode = response.status;
+                    if ($scope.errorCode >= 400 && !$scope.amount) {
+                        $scope.showEmptyAmountError = true;
+                        return;
+                    }
+                    if ($scope.errorCode >= 400 && isNaN($scope.amount)) {
+                        $scope.showInvalidValueError = true;
+                        return;
+                    }
+                    showError(response);
+                });
+            
+        }
+        
+        function resetErrors() {
+            $scope.showEmptyAmountError = false;
+            $scope.showInvalidValueError = false;
+        }
+
+        function showError(error) {
+            resetErrors();
+            $scope.showForm = false;
+            $scope.showResult = false;
+            $scope.showError = true;
+            var status = error.status > 0 ? error.status : "timeout";
+            var data = error.data ? error.data : "Server timeout"
+            console.error("Server returned " + status + ": " + data);
+        }
+
+    });
+
+	app.filter('commaLess', function() {
+		return function(input) {
+			return (input) ? input.toString().trim().replace(",","") : null;
+		};
+	});
+</script>
+				</div>
+			</div>
+		</div>
+		
+
+
+<div id="footermainPanel">
+  <div id="footerPanel">
+    <ul>
+      <li><a href="/parabank/index.htm">Home</a>| </li>
+      <li><a href="about.htm">About Us</a>| </li>
+      <li><a href="services.htm">Services</a>| </li>
+      <li><a href="http://www.parasoft.com/jsp/products.jsp">Products</a>| </li>
+      <li><a href="http://www.parasoft.com/jsp/pr/contacts.jsp">Locations</a>| </li>
+      <li><a href="http://forums.parasoft.com/">Forum</a>| </li>
+      <li><a href="/parabank/sitemap.htm">Site Map</a>| </li>
+      <li><a href="contact.htm">Contact Us</a></li>
+    </ul>
+    <p class="copyright">&copy; Parasoft. All rights reserved.</p>
+    <ul class="visit">
+      <li>Visit us at:</li>
+      <li><a href="http://www.parasoft.com/" target="_blank">www.parasoft.com</a></li>
+    </ul>
+  </div>
+</div>
+	</body>
+</html>

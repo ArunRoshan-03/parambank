@@ -1,0 +1,11 @@
+[t24]
+FileName1=t24_accounts.json
+URL1=https://parabank.parasoft.com/parabank/services_proxy/bank/customers/12656/accounts
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_24.xml
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,4 @@
+"customer.firstName=Arun&customer.lastName=roshan&customer.address.street=new+street+cantonment"
+"&customer.address.city=tamilnadu&customer.address.state=trichy&customer.address.zipCode=620001"
+"&customer.phoneNumber=9344189391&customer.ssn=1234567890&customer.username=Admin&customer.pass"
+"word=Atmecs%40123&repeatedPassword=Atmecs%40123"

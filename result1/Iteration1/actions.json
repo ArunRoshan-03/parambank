@@ -1,0 +1,123 @@
+[
+    {
+        "actionName": "main_action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.htm_2",
+                "infFile": "t2.inf",
+                "time": 1693398479058
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: register.htm;jsessionid={C_jsession_id}",
+                "infFile": "t3.inf",
+                "time": 1693398484974
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Form: register.htm_3",
+                "infFile": "t4.inf",
+                "time": 1693398490596
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: openaccount.htm_2",
+                "infFile": "t7.inf",
+                "time": 1693398496462
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: accounts_4",
+                "infFile": "t9.inf",
+                "time": 1693398497081
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: createAccount_2",
+                "infFile": "t10.inf",
+                "time": 1693398497794
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: overview.htm_2",
+                "infFile": "t11.inf",
+                "time": 1693398504930
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: accounts_5",
+                "infFile": "t12.inf",
+                "time": 1693398505588
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: transfer.htm_2",
+                "infFile": "t13.inf",
+                "time": 1693398511451
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: accounts_6",
+                "infFile": "t15.inf",
+                "time": 1693398512126
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: transfer_2",
+                "infFile": "t16.inf",
+                "time": 1693398512732
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: logout.htm_2",
+                "infFile": "t17.inf",
+                "time": 1693398518911
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "TC_01_launch",
+                "rawStartTime": 1693398475949,
+                "rawEndTime": 1693398479059,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1658949851989746
+            },
+            {
+                "transactionName": "TC_02_register_user",
+                "rawStartTime": 1693398484187,
+                "rawEndTime": 1693398490596,
+                "thinkTime": 5.010584,
+                "wastedTime": 0.027934551239013673
+            },
+            {
+                "transactionName": "TC_03_open_new_account",
+                "rawStartTime": 1693398495724,
+                "rawEndTime": 1693398497794,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03429245948791504
+            },
+            {
+                "transactionName": "TC_04_select_account_overview",
+                "rawStartTime": 1693398502907,
+                "rawEndTime": 1693398505589,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013500452041625977
+            },
+            {
+                "transactionName": "TC_05_transfer_fund",
+                "rawStartTime": 1693398510708,
+                "rawEndTime": 1693398512732,
+                "thinkTime": 0.0,
+                "wastedTime": 0.023000717163085939
+            },
+            {
+                "transactionName": "TC_06_logout",
+                "rawStartTime": 1693398517875,
+                "rawEndTime": 1693398518912,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012951850891113282
+            }
+        ]
+    }
+]

@@ -1,0 +1,298 @@
+Virtual User Script started at: 30-Aug-23 5:57:42 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.1.0 for Windows 10; build 406 (Jul 12 2023 09:14:26)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\arunroshan.r\Documents\VuGen\Scripts\parabank\parabank\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action main_action.
+TC_01_launch.c(3): Notify: Transaction "TC_01_launch" started.
+TC_01_launch.c(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+TC_01_launch.c(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+TC_01_launch.c(7): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+TC_01_launch.c(7): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+TC_01_launch.c(14): web_url("index.htm_2") started  	[MsgId: MMSG-26355]
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_01_launch.c(14): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_01_launch.c(14): Found resource "https://parabank.parasoft.com/parabank/template.css;jsessionid=19F608E5D90CB16CF167ABAE334F322A" in HTML "https://parabank.parasoft.com/parabank/index.htm"  	[MsgId: MMSG-26659]
+TC_01_launch.c(14): Found resource "https://parabank.parasoft.com/parabank/style.css;jsessionid=19F608E5D90CB16CF167ABAE334F322A" in HTML "https://parabank.parasoft.com/parabank/index.htm"  	[MsgId: MMSG-26659]
+TC_01_launch.c(14): Found resource "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js;jsessionid=19F608E5D90CB16CF167ABAE334F322A" in HTML "https://parabank.parasoft.com/parabank/index.htm"  	[MsgId: MMSG-26659]
+TC_01_launch.c(14): Found resource "https://parabank.parasoft.com/parabank/images/clear.gif;jsessionid=19F608E5D90CB16CF167ABAE334F322A" in HTML "https://parabank.parasoft.com/parabank/index.htm"  	[MsgId: MMSG-26659]
+TC_01_launch.c(14): Found resource "https://parabank.parasoft.com/parabank/images/logo.gif;jsessionid=19F608E5D90CB16CF167ABAE334F322A" in HTML "https://parabank.parasoft.com/parabank/index.htm"  	[MsgId: MMSG-26659]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/main-bg.gif" (specified by argument number 9)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/topbg.gif" (specified by argument number 12)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/home-normal.gif" (specified by argument number 15)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/bullet-hover.gif" (specified by argument number 18)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/bodybg.gif" (specified by argument number 21)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/header-main.jpg;jsessionid={C_jsession_id}" (specified by argument number 24)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/button-bgr.png" (specified by argument number 26)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/atmhand.jpg" (specified by argument number 29)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/bullet2-normal.gif" (specified by argument number 32)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/sky-color-bg.gif" (specified by argument number 35)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/icon2.jpg" (specified by argument number 38)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/icon4.jpg" (specified by argument number 41)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/footerbg.gif" (specified by argument number 44)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/favicon.ico" (specified by argument number 47)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/aboutus-normal.gif" (specified by argument number 49)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/contact-normal.gif" (specified by argument number 52)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Downloading resource "https://parabank.parasoft.com/parabank/images/bullet-normal.gif" (specified by argument number 55)  	[MsgId: MMSG-26576]
+TC_01_launch.c(14): Notify: Saving Parameter "C_jsession_id = 19F608E5D90CB16CF167ABAE334F322A".
+TC_01_launch.c(14): Warning -26630: HTTP Status-Code=400 (Bad Request) for "https://parabank.parasoft.com/parabank/images/header-main.jpg;jsessionid={C_jsession_id}"  	[MsgId: MWAR-26630]
+TC_01_launch.c(14): web_url("index.htm_2") highest severity level was "warning", 94416 body bytes, 11089 header bytes  	[MsgId: MMSG-26388]
+TC_01_launch.c(41): Notify: Transaction "TC_01_launch" ended with a "Pass" status (Duration: 3.1101 Wasted Time: 0.1659).
+TC_01_launch.c(42): Think time - Waiting 5.00 seconds (according to limit).
+TC_01_launch.c(42): lr_think_time: 5.00 seconds (recorded think time was 10.00 seconds).
+TC_02_register_user.c(3): Notify: Transaction "TC_02_register_user" started.
+TC_02_register_user.c(6): Notify: Saving Parameter "p_random_number = 0034".
+TC_02_register_user.c(8): web_url("register.htm;jsessionid={C_jsession_id}") started  	[MsgId: MMSG-26355]
+TC_02_register_user.c(8): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_02_register_user.c(8): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_02_register_user.c(8): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_02_register_user.c(8): Notify: Parameter Substitution: parameter "C_jsession_id" =  "19F608E5D90CB16CF167ABAE334F322A"
+TC_02_register_user.c(8): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_02_register_user.c(8): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_02_register_user.c(8): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_02_register_user.c(8): Found resource "https://parabank.parasoft.com/parabank/template.css" in HTML "https://parabank.parasoft.com/parabank/register.htm;jsessionid=19F608E5D90CB16CF167ABAE334F322A"  	[MsgId: MMSG-26659]
+TC_02_register_user.c(8): Found resource "https://parabank.parasoft.com/parabank/style.css" in HTML "https://parabank.parasoft.com/parabank/register.htm;jsessionid=19F608E5D90CB16CF167ABAE334F322A"  	[MsgId: MMSG-26659]
+TC_02_register_user.c(8): Found resource "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js" in HTML "https://parabank.parasoft.com/parabank/register.htm;jsessionid=19F608E5D90CB16CF167ABAE334F322A"  	[MsgId: MMSG-26659]
+TC_02_register_user.c(8): Found resource "https://parabank.parasoft.com/parabank/images/clear.gif" in HTML "https://parabank.parasoft.com/parabank/register.htm;jsessionid=19F608E5D90CB16CF167ABAE334F322A"  	[MsgId: MMSG-26659]
+TC_02_register_user.c(8): Found resource "https://parabank.parasoft.com/parabank/images/logo.gif" in HTML "https://parabank.parasoft.com/parabank/register.htm;jsessionid=19F608E5D90CB16CF167ABAE334F322A"  	[MsgId: MMSG-26659]
+TC_02_register_user.c(8): Downloading resource "https://parabank.parasoft.com/parabank/images/header-main.jpg" (specified by argument number 9)  	[MsgId: MMSG-26576]
+TC_02_register_user.c(8): web_url("register.htm;jsessionid={C_jsession_id}") was successful, 127220 body bytes, 3432 header bytes  	[MsgId: MMSG-26386]
+TC_02_register_user.c(19): Think time - Waiting 5.00 seconds (according to limit).
+TC_02_register_user.c(19): lr_think_time: 5.00 seconds (recorded think time was 57.00 seconds).
+TC_02_register_user.c(21): web_reg_find started  	[MsgId: MMSG-26355]
+TC_02_register_user.c(21): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+TC_02_register_user.c(26): web_submit_form("register.htm_3") started  	[MsgId: MMSG-26355]
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_first_name" =  "arun"
+TC_02_register_user.c(26): Notify: Next row for parameter p_last_name = 1 [table  = p_last_name].
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_last_name" =  "kutty"
+TC_02_register_user.c(26): Notify: Next row for parameter p_address = 1 [table  = p_address].
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_address" =  "12/oothakadai"
+TC_02_register_user.c(26): Notify: Next row for parameter p_city = 1 [table  = p_city].
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_city" =  "trichy"
+TC_02_register_user.c(26): Notify: Next row for parameter p_state = 1 [table  = p_state].
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_state" =  "tamilnadu"
+TC_02_register_user.c(26): Notify: Next row for parameter p_zipcode = 1 [table  = p_zipcode].
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_zipcode" =  "620001"
+TC_02_register_user.c(26): Notify: Next row for parameter p_phonenumber = 1 [table  = p_phonenumber].
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_phonenumber" =  "9344189791"
+TC_02_register_user.c(26): Notify: Next row for parameter p_ssn = 1 [table  = p_ssn].
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_ssn" =  "1234567890"
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_random_number" =  "0034"
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_password" =  "Atmecs@123"
+TC_02_register_user.c(26): Notify: Parameter Substitution: parameter "p_password" =  "Atmecs@123"
+TC_02_register_user.c(26): Submitting form to "https://parabank.parasoft.com/parabank/register.htm", Target Frame=""  	[MsgId: MMSG-27978]
+TC_02_register_user.c(26): Resource "https://parabank.parasoft.com/parabank/template.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_register_user.c(26): Resource "https://parabank.parasoft.com/parabank/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_register_user.c(26): Resource "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_register_user.c(26): Resource "https://parabank.parasoft.com/parabank/images/clear.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_register_user.c(26): Resource "https://parabank.parasoft.com/parabank/images/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_register_user.c(26): Downloading resource "https://parabank.parasoft.com/parabank/images/header-customer.jpg" (specified by argument number 38)  	[MsgId: MMSG-26576]
+TC_02_register_user.c(26): Registered web_reg_find successful for "Text=Your account was created successfully. You are now logged in." (count=1)  	[MsgId: MMSG-26364]
+TC_02_register_user.c(26): web_submit_form("register.htm_3") was successful, 60551 body bytes, 947 header bytes  	[MsgId: MMSG-26386]
+TC_02_register_user.c(44): Notify: Transaction "TC_02_register_user" ended with a "Pass" status (Duration: 6.4095 Think Time: 5.0106 Wasted Time: 0.0279).
+TC_02_register_user.c(45): Think time - Waiting 5.00 seconds (according to limit).
+TC_02_register_user.c(45): lr_think_time: 5.00 seconds (recorded think time was 10.00 seconds).
+TC_03_open_new_account.c(3): Notify: Transaction "TC_03_open_new_account" started.
+TC_03_open_new_account.c(5): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+TC_03_open_new_account.c(5): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+TC_03_open_new_account.c(11): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+TC_03_open_new_account.c(11): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+TC_03_open_new_account.c(19): web_url("openaccount.htm_2") started  	[MsgId: MMSG-26355]
+TC_03_open_new_account.c(19): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_03_open_new_account.c(19): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_03_open_new_account.c(19): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_03_open_new_account.c(19): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_03_open_new_account.c(19): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_03_open_new_account.c(19): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_03_open_new_account.c(19): Resource "https://parabank.parasoft.com/parabank/template.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_open_new_account.c(19): Resource "https://parabank.parasoft.com/parabank/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_open_new_account.c(19): Resource "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_open_new_account.c(19): Resource "https://parabank.parasoft.com/parabank/images/clear.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_open_new_account.c(19): Resource "https://parabank.parasoft.com/parabank/images/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_open_new_account.c(19): Notify: Saving Parameter "C_customer_id = 24755".
+TC_03_open_new_account.c(19): Notify: Saving Parameter "C_account_type_1 = 0".
+TC_03_open_new_account.c(19): Notify: Saving Parameter "C_account_type_2 = 1".
+TC_03_open_new_account.c(19): Notify: Saving Parameter "C_account_type_count = 2".
+TC_03_open_new_account.c(19): web_url("openaccount.htm_2") was successful, 2134 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+TC_03_open_new_account.c(27): Notify: Parameter Substitution: parameter "C_account_type_count" =  "2"
+TC_03_open_new_account.c(27): Notify: Parameter Substitution: parameter "C_account_type_1" =  "0"
+TC_03_open_new_account.c(28): Notify: Saving Parameter "P_account_type = 0".
+TC_03_open_new_account.c(31): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+TC_03_open_new_account.c(31): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+TC_03_open_new_account.c(38): web_url("accounts_4") started  	[MsgId: MMSG-26355]
+TC_03_open_new_account.c(38): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_03_open_new_account.c(38): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_03_open_new_account.c(38): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_03_open_new_account.c(38): Notify: Parameter Substitution: parameter "C_customer_id" =  "24755"
+TC_03_open_new_account.c(38): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_03_open_new_account.c(38): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_03_open_new_account.c(38): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_03_open_new_account.c(38): Notify: Saving Parameter "C_account_id = 30993".
+TC_03_open_new_account.c(38): web_url("accounts_4") was successful, 95 body bytes, 359 header bytes  	[MsgId: MMSG-26386]
+TC_03_open_new_account.c(47): web_custom_request("createAccount_2") started  	[MsgId: MMSG-26355]
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "C_customer_id" =  "24755"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "P_account_type" =  "0"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "C_account_id" =  "30993"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_03_open_new_account.c(47): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_03_open_new_account.c(47): web_custom_request("createAccount_2") was successful, 87 body bytes, 359 header bytes  	[MsgId: MMSG-26386]
+TC_03_open_new_account.c(58): Notify: Transaction "TC_03_open_new_account" ended with a "Pass" status (Duration: 2.0706 Wasted Time: 0.0343).
+TC_03_open_new_account.c(59): Think time - Waiting 5.00 seconds (according to limit).
+TC_03_open_new_account.c(59): lr_think_time: 5.00 seconds (recorded think time was 10.00 seconds).
+TC_04_select_account_overview.c(4): Notify: Transaction "TC_04_select_account_overview" started.
+TC_04_select_account_overview.c(6): web_url("overview.htm_2") started  	[MsgId: MMSG-26355]
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_04_select_account_overview.c(6): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_04_select_account_overview.c(6): Resource "https://parabank.parasoft.com/parabank/template.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_account_overview.c(6): Resource "https://parabank.parasoft.com/parabank/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_account_overview.c(6): Resource "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_account_overview.c(6): Resource "https://parabank.parasoft.com/parabank/images/clear.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_account_overview.c(6): Resource "https://parabank.parasoft.com/parabank/images/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_account_overview.c(6): Downloading resource "https://parabank.parasoft.com/parabank/images/gradhead.png" (specified by argument number 9)  	[MsgId: MMSG-26576]
+TC_04_select_account_overview.c(6): Downloading resource "https://parabank.parasoft.com/parabank/images/gradback.png" (specified by argument number 12)  	[MsgId: MMSG-26576]
+TC_04_select_account_overview.c(6): web_url("overview.htm_2") was successful, 2348 body bytes, 1405 header bytes  	[MsgId: MMSG-26386]
+TC_04_select_account_overview.c(18): web_url("accounts_5") started  	[MsgId: MMSG-26355]
+TC_04_select_account_overview.c(18): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_04_select_account_overview.c(18): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_04_select_account_overview.c(18): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_04_select_account_overview.c(18): Notify: Parameter Substitution: parameter "C_customer_id" =  "24755"
+TC_04_select_account_overview.c(18): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_04_select_account_overview.c(18): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_04_select_account_overview.c(18): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_04_select_account_overview.c(18): web_url("accounts_5") was successful, 108 body bytes, 359 header bytes  	[MsgId: MMSG-26386]
+TC_04_select_account_overview.c(27): Notify: Transaction "TC_04_select_account_overview" ended with a "Pass" status (Duration: 2.6821 Wasted Time: 0.0135).
+TC_04_select_account_overview.c(28): Think time - Waiting 5.00 seconds (according to limit).
+TC_04_select_account_overview.c(28): lr_think_time: 5.00 seconds (recorded think time was 10.00 seconds).
+TC_05_transfer_fund.c(3): Notify: Transaction "TC_05_transfer_fund" started.
+TC_05_transfer_fund.c(5): web_url("transfer.htm_2") started  	[MsgId: MMSG-26355]
+TC_05_transfer_fund.c(5): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_05_transfer_fund.c(5): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_05_transfer_fund.c(5): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_05_transfer_fund.c(5): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_05_transfer_fund.c(5): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_05_transfer_fund.c(5): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_05_transfer_fund.c(5): Resource "https://parabank.parasoft.com/parabank/template.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_transfer_fund.c(5): Resource "https://parabank.parasoft.com/parabank/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_transfer_fund.c(5): Resource "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_transfer_fund.c(5): Resource "https://parabank.parasoft.com/parabank/images/clear.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_transfer_fund.c(5): Resource "https://parabank.parasoft.com/parabank/images/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_transfer_fund.c(5): web_url("transfer.htm_2") was successful, 2322 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+TC_05_transfer_fund.c(15): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+TC_05_transfer_fund.c(15): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+TC_05_transfer_fund.c(22): web_url("accounts_6") started  	[MsgId: MMSG-26355]
+TC_05_transfer_fund.c(22): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_05_transfer_fund.c(22): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_05_transfer_fund.c(22): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_05_transfer_fund.c(22): Notify: Parameter Substitution: parameter "C_customer_id" =  "24755"
+TC_05_transfer_fund.c(22): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_05_transfer_fund.c(22): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_05_transfer_fund.c(22): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_05_transfer_fund.c(22): Notify: Saving Parameter "C_transfer_account_id = 31104".
+TC_05_transfer_fund.c(22): web_url("accounts_6") was successful, 108 body bytes, 359 header bytes  	[MsgId: MMSG-26386]
+TC_05_transfer_fund.c(31): web_reg_find started  	[MsgId: MMSG-26355]
+TC_05_transfer_fund.c(31): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+TC_05_transfer_fund.c(36): web_custom_request("transfer_2") started  	[MsgId: MMSG-26355]
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "C_account_id" =  "30993"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "C_transfer_account_id" =  "31104"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "p_amount" =  "245466"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_05_transfer_fund.c(36): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_05_transfer_fund.c(36): Registered web_reg_find successful for "Text=Successfully transferred " (count=1)  	[MsgId: MMSG-26364]
+TC_05_transfer_fund.c(36): web_custom_request("transfer_2") was successful, 87 body bytes, 359 header bytes  	[MsgId: MMSG-26386]
+TC_05_transfer_fund.c(47): Notify: Transaction "TC_05_transfer_fund" ended with a "Pass" status (Duration: 2.0239 Wasted Time: 0.0230).
+TC_05_transfer_fund.c(48): Think time - Waiting 5.00 seconds (according to limit).
+TC_05_transfer_fund.c(48): lr_think_time: 5.00 seconds (recorded think time was 10.00 seconds).
+TC_06_logout.c(3): Notify: Transaction "TC_06_logout" started.
+TC_06_logout.c(5): web_url("logout.htm_2") started  	[MsgId: MMSG-26355]
+TC_06_logout.c(5): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_06_logout.c(5): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_06_logout.c(5): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_06_logout.c(5): Notify: Parameter Substitution: parameter "scheme" =  "https:"
+TC_06_logout.c(5): Notify: Parameter Substitution: parameter "baseurl" =  "parabank.parasoft.com"
+TC_06_logout.c(5): Notify: Parameter Substitution: parameter "path" =  "parabank"
+TC_06_logout.c(5): Redirecting "https://parabank.parasoft.com/parabank/logout.htm" (redirection depth is 0)  	[MsgId: MMSG-26694]
+TC_06_logout.c(5): To location "https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC"  	[MsgId: MMSG-26693]
+TC_06_logout.c(5): Resource "https://parabank.parasoft.com/parabank/template.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_logout.c(5): Resource "https://parabank.parasoft.com/parabank/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_logout.c(5): Resource "https://parabank.parasoft.com/parabank/webjars/angularjs/1.8.2/angular.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_logout.c(5): Resource "https://parabank.parasoft.com/parabank/images/clear.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_logout.c(5): Resource "https://parabank.parasoft.com/parabank/images/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_logout.c(5): web_url("logout.htm_2") was successful, 1486 body bytes, 908 header bytes  	[MsgId: MMSG-26386]
+TC_06_logout.c(14): Notify: Transaction "TC_06_logout" ended with a "Pass" status (Duration: 1.0373 Wasted Time: 0.0130).
+TC_06_logout.c(15): Think time - Waiting 5.00 seconds (according to limit).
+TC_06_logout.c(15): lr_think_time: 5.00 seconds (recorded think time was 10.00 seconds).
+Ending action main_action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
